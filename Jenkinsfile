@@ -12,7 +12,7 @@ pipeline {
                 withMaven(maven: 'Maven-3.3.9') {
                     dir('C:\\Program Files (x86)\\Jenkins\\workspace\\newsample'){
                     	
-                        mvn clean install -Dmaven.test.skip=true
+                        mvn clean install
                     }
                  }
      		 }
