@@ -11,8 +11,8 @@ pipeline {
                 echo 'Build Stage'
                 withMaven(maven: 'Maven-3.3.9') {
                     dir('C:\\Program Files (x86)\\Jenkins\\workspace\\newsample'){
-                    	sh 'pwd'
-                        sh 'mvn clean install -Dmaven.test.skip=true'
+                    	
+                        mvn clean install -Dmaven.test.skip=true
                     }
                  }
      		 }
