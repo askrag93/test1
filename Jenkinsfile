@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout'){
             steps{
-                git branch: 'master', url: 'git@git.tecnotree.com:commerce-engine/CEngine.git'
+                git branch: 'master', url: 'git@github.com:askrag93/test1.git'
             }
         }
         stage('Build') {
