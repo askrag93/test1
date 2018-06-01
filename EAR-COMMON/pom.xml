@@ -24,7 +24,7 @@
 
     <dependencies>
              <dependency>
-<groupId>org.springframework.boot</groupId>
+<groupId>WAR-COMMON</groupId>
 <artifactId>war-common</artifactId>
  <version>1.0</version>
 <type>war</type>
