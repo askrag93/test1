@@ -24,7 +24,7 @@
 
     <dependencies>
              <dependency>
-<groupId>WAR-COMMON</groupId>
+<groupId>jsp-boot-tst</groupId>
 <artifactId>war-common</artifactId>
  <version>1.0</version>
 <type>war</type>
