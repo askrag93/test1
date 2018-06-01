@@ -18,7 +18,7 @@ pipeline {
      		 }
   	  }
         
-        stage('Build') {
+        stage('War_Build') {
             steps{
                 echo 'Build Stage'
                 withMaven(maven: 'Maven-3.3.9') {
