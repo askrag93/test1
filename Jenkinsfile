@@ -12,7 +12,7 @@ pipeline {
                 withMaven(maven: 'Maven-3.3.9') {
                     dir('C:\\Program Files (x86)\\Jenkins\\workspace\\newsample'){
                     	
-                        bat 'mvn clean package -rf :ear-common -Dmaven.test.skip=true'
+                        bat 'mvn clean package -Dmaven.test.skip=true'
                     }
                  }
      		 }
