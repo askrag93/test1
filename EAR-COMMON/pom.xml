@@ -28,7 +28,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
- 	   <groupId>org.springframework</groupId>
+ 	   <groupId>jsp-boot-tst</groupId>
  	   <artifactId>WAR-COMMON</artifactId>
             <version>1.0</version>
  	   <type>war</type>
