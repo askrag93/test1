@@ -24,15 +24,15 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
  	   <groupId>WAR-COMMON</groupId>
  	   <artifactId>war-common</artifactId>
             <version>1.0</version>
  	   <type>war</type>
-        </dependency>
+        </dependency>     
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
