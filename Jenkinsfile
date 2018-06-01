@@ -17,6 +17,18 @@ pipeline {
                  }
      		 }
   	  }
+        
+        stage('Build') {
+            steps{
+                echo 'Build Stage'
+                withMaven(maven: 'Maven-3.3.9') {
+                    dir('C:\\Program Files (x86)\\Jenkins\\workspace\\sample\\EAR-COMMON'){
+                    	
+                        bat 'mvn -o clean install -Dmaven.test.skip=true'
+                    }
+                 }
+     		 }
+  	  }
      }
 }
 
