@@ -10,9 +10,9 @@ pipeline {
             steps{
                 echo 'Build Stage'
                 withMaven(maven: 'Maven-3.3.9') {
-                    dir('C:\\Program Files (x86)\\Jenkins\\workspace\\newsample'){
+                    dir('C:\\Program Files (x86)\\Jenkins\\workspace\\sample'){
                     	
-                        bat 'mvn clean'
+                        bat 'mvn clean package -Dmaven.test.skip=true'
                     }
                  }
      		 }
