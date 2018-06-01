@@ -24,8 +24,8 @@
 	
 	<modules>
                 <module>JAR-COMMON</module>
-                <module>EAR-COMMON</module>
-				<module>WAR-COMMON</module>
+                <module>WAR-COMMON</module>
+		<module>JAR-COMMON</module>
 
 	</modules>
 	
